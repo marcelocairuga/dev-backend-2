@@ -3,7 +3,7 @@ session_start();
 $_SESSION = [];
 session_destroy();
 
-require 'conexao.php';
+require_once 'conexao.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $email = $_POST['email'] ?? '';

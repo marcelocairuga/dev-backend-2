@@ -1,6 +1,6 @@
 <?php
 
-require 'conexao.php';
+require_once 'conexao.php';
 
 $users = [
     ["Admnistrador do Sistema", "admin@email.com", password_hash("admin123", PASSWORD_DEFAULT), 1],
