@@ -11,7 +11,7 @@
     echo "Padrão: PDO::FETCH_BOTH\n";
     var_dump($rows);
 
-    // FETCH_BOTH
+    
     $stmt = $conn->query($sql);
     $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);    
 
@@ -19,7 +19,7 @@
     var_dump($rows);
 
 
-    // FETCH_OBJ
+   
     $stmt = $conn->query($sql);
     $rows = $stmt->fetchAll(PDO::FETCH_OBJ);
 
