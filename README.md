@@ -25,6 +25,4 @@ Esta disciplina tem como objetivo aprofundar os conhecimentos no **desenvolvimen
 O repositório contém os exemplos de código utilizados em aula, atividades práticas desenvolvidas ao longo da disciplina, entre outros materiais, incluindo:
 - Scripts demonstrando a sintaxe de Orientação a Objetos do PHP;
 - Exemplos de código PHP para conexão e consultas a banco de dados utilizando PDO;
-- ... em construção!
-
-
+... em construção!
